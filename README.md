@@ -5,7 +5,7 @@ done when a person wants to manually inspect the values.
 
 ## Compiling
 
-mtx_to_csv requires compiles with Rust's Cargo system.
+mtx_to_csv compiles with Rust's Cargo system.
 
 ```cmd
 cargo build --release;
