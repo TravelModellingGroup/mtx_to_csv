@@ -3,7 +3,11 @@ name = "mtx_to_csv"
 version = "0.1.0"
 edition = "2024"
 
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
+ar = "x86_64-w64-mingw32-ar"
+
 [dependencies]
 byteorder = "1.5.0"
-flate2 = "1.1.1"
-rayon = "1.10.0"
+flate2 = "1.1.9"
+rayon = "1.11.0"
